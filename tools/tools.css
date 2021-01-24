@@ -1,0 +1,50 @@
+/*********************************************************
+ * STYLE  : tools.css                                    *
+ *          Styling for tools Cockpit web-gui            *
+ *                                                       *
+ *          I. Helwegen 2021                             *
+ *********************************************************/
+
+ .grid-container {
+     display: grid;
+     height: auto;
+     align-content: space-evenly;
+     grid-template-columns: auto auto auto auto;
+     grid-gap: 10px;
+     background-color: rgb(237, 237, 237);
+     border: 1px solid #ddd;
+     padding: 10px;
+ }
+
+ .grid-container > a {
+     background-color: rgba(255, 255, 255, 0.8);
+     display: inline-block;
+     padding: 20px 0;
+     text-align: center;
+ }
+
+ .grid-container > a:hover {
+     background-color: rgba(255, 255, 255, 0.4);
+ }
+
+ .grid-container > a > img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     width: 128px;
+     height: 128px;
+ }
+
+ .grid-container > a > span {
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .grid-message {
+     background-color: rgb(237, 237, 237);
+     height: auto;
+     text-align: center;
+     padding: 10px;
+     border: 1px solid #ddd;
+ }

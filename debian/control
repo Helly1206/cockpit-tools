@@ -1,0 +1,16 @@
+Source: cockpit-tools
+Section: net
+Priority: optional
+Maintainer: Helly1206
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+XB-Plugin-Section: sharing
+
+Package: cockpit-tools
+Architecture: all
+Depends: cockpit,
+         cockpit-stdplgin (>= 0.81),
+         python3,
+         python3-pil,
+         ${misc:Depends}
+Description: cockpit-tools (Add links to external webtools to cockpit)
