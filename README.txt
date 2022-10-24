@@ -1,4 +1,4 @@
-cockpit-tools v0.81
+cockpit-tools v0.82
 
 cockpit-tools -- Add links to external webtools to cockpit
 ============= == === ===== == ======== ======== == =======

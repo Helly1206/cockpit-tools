@@ -1,3 +1,9 @@
+cockpit-tools (0.82) stable; urgency=low
+
+  * Updated gui to cockpit >=264
+
+ -- Helly1206 <hellyrulez@hotmail.com>  Mon, 24 Oct 2022 19:51:53 +0100
+
 cockpit-tools (0.81) stable; urgency=low
 
   * Fixed some bugs on initial installation and dependencies
