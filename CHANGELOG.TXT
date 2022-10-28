@@ -1,3 +1,6 @@
+[B]0.8.3[/B]
+- Fixed deb generation folder error
+
 [B]0.8.2[/B]
 - Updated gui to cockpit >=264
 
