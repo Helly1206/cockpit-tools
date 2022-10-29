@@ -1,3 +1,6 @@
+[B]0.8.4[/B]
+- Fixed version mismatch for image processing
+
 [B]0.8.3[/B]
 - Fixed deb generation folder error
 

@@ -420,7 +420,7 @@ class toolscli(object):
                 hsize = basesize
                 hpercent = (basesize/float(img.size[1]))
                 wsize = int((float(img.size[0])*float(hpercent)))
-            img2 = img.resize((wsize, hsize), Image.ANTIALIAS)
+            img2 = img.resize((wsize, hsize), Image.Resampling.LANCZOS)
             img3 = Image.new('RGBA', (basesize, basesize), (0, 0, 0, 0))
             upper = (128 - img2.size[1]) // 2
             left = (128 - img2.size[0]) // 2
