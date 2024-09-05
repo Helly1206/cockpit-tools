@@ -9,8 +9,8 @@ XB-Plugin-Section: sharing
 Package: cockpit-tools
 Architecture: all
 Depends: cockpit,
-         cockpit-stdplgin (>= 0.81),
+         cockpit-stdplgin (>= 0.93),
          python3,
-         python3-pip,
+         python3-pil,
          ${misc:Depends}
 Description: cockpit-tools (Add links to external webtools to cockpit)

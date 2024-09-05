@@ -22,7 +22,7 @@ from base64 import b64encode
 #########################################################
 
 ####################### GLOBALS #########################
-VERSION       = "0.80"
+VERSION       = "0.85"
 XML_FILENAME  = "cockpit-tools.xml"
 ENCODING      = 'utf-8'
 FALLBACK_ICON = '/opt/tools/fallback.png'

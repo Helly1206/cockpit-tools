@@ -1,3 +1,10 @@
+cockpit-tools (0.85) stable; urgency=low
+
+  * Update for stdplgin v0.9.3+
+  * Fixed unable to install PIL via pip
+
+ -- Helly1206 <hellyrulez@hotmail.com>  Thu, 5 Sep 2024 14:10:28 +0100
+
 cockpit-tools (0.84) stable; urgency=low
 
   * Fixed version mismatch for image processing
